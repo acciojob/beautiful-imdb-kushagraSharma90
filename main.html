@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Movie Detail Page</title>
 
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background-color:#111;
+            color:white;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+
+        h1{
+            margin-top:20px;
+            font-size:40px;
+        }
+
+        /* Movie Poster */
+        .moviePic{
+            height:450px;
+            width:300px;
+            opacity:0.9;
+            border-radius:12px;
+            margin-top:20px;
+            box-shadow:0 4px 12px rgba(255,255,255,0.3);
+        }
+
+        /* Movie Description */
+        .movieDetail{
+            position:relative;
+            top:20px;
+            width:70%;
+            margin:auto;
+            text-align:center;
+            font-size:20px;
+            line-height:1.6;
+            color:#f1f1f1;
+        }
+
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>Interstellar</h1>
+
+    <img 
+        class="moviePic"
+        src="https://m.media-amazon.com/images/I/71n58xD4yIL._AC_SY679_.jpg"
+        alt="Interstellar Movie Poster"
+    >
+
+    <p class="movieDetail">
+        Interstellar is a science fiction movie directed by Christopher Nolan.
+        The film follows a group of astronauts who travel through a wormhole
+        in search of a new habitable planet for humanity. With breathtaking
+        visuals, emotional storytelling, and a powerful soundtrack, the movie
+        explores themes of love, survival, and time.
+    </p>
 
 </body>
-
 </html>
